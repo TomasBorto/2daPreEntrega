@@ -1,0 +1,25 @@
+GET http://localhost:8080/api/usuarios
+
+
+### POST USER
+POST http://localhost:8080/api/usuarios
+Content-Type: application/json
+
+{
+    "first_name": "Federico",
+    "last_name": "Osandón",
+    "email": "fede@gmail.com"
+}
+### UPDATE USER
+PUT http://localhost:8080/api/usuarios/64319286cd73dde0785024be
+Content-Type: application/json
+
+{
+    "first_name": "Federico 2",
+    "last_name": "Osandón 2",
+    "email": "fede1@gmail.com"
+}
+### DELETE USER
+DELETE http://localhost:8080/api/usuarios/64319286cd73dde0785024be
+Content-Type: application/json
+
